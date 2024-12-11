@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.profile-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.profile-info div {
+    width: 48%;
+}
+
+.profile-info h3 {
+    margin-top: 0;
+    color: #007BFF;
+    font-size: 1.2em;
+}
+
+.profile-info p {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.project-details, .contact-info {
+    margin-top: 30px;
+}
+
+.project-details h3, .contact-info h3 {
+    color: #007BFF;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project-details ul, .contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.project-details li, .contact-info li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.project-details li strong, .contact-info li strong {
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    font-size: 1em;
+}
